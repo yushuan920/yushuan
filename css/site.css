@@ -1,0 +1,66 @@
+    * {
+        margin:0;
+    }
+    a{
+        text-decoration: none;
+    }
+    #all{
+        max-width:800px;
+        margin:0 auto;
+    }
+    #first{float:right;}
+    #header{
+        height: 219px;
+        width: 100px
+        background-color: white;
+    }
+    #logo1{
+        background-image: url(../img/first.jpg);
+        background-repeat: no-repeat;
+    }
+    #menu-wrapper{
+        padding-left:100px;
+        background-color: white;
+    }
+    #wrapper{
+        background-color: steelblue;
+    }
+    #wrapper:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    #wrapper1{
+        background-color: steelblue;
+        
+    }
+    #wrapper1:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    #aside{
+        float:left;
+        width:125px;
+        padding:0 5px;
+        border-left: 3px black solid;
+    }
+    main{
+        float:right;
+        width:660px;
+        background-color: white;
+    }
+    main .title{
+        font: 32px bold;
+        margin: 5px 5px;
+        color: royalblue;
+        font-family: "標楷體";
+        text-decoration: underline;
+        text-decoration-color: midnightblue;
+    }
+    #footer{
+        height: 30px;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }

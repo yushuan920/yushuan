@@ -1,0 +1,17 @@
+.btn1{
+    display:block;
+    width:120px;
+    padding: 8px 0;
+    margin:5px;
+    font-size: 16px;
+    background-color: white;
+    color:black;
+    border: 2px black solid;
+    border-radius: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    font-family: "標楷體";}
+.btn1:hover{
+    background-color: steelblue;
+    color:white;
+    cursor: pointer;}
